@@ -20,15 +20,15 @@ git clone https://github.com/16GBRAM/android_device_xiaomi_munch.git -b luna dev
 
 git clone https://github.com/16GBRAM/vendor_xiaomi_munch.git -b main vendor/xiaomi/munch; \
 
-git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_munch-firmware vendor/xiaomi/munch-firmware; \
+git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_munch-firmware -b vip vendor/xiaomi/munch-firmware; \
 
 git clone https://github.com/SenseiiX/fusionX_sm8250.git -b wip-next kernel/xiaomi/munch; \
 
-git clone https://github.com/Lordputin404/android_hardware_xiaomi hardware/xiaomi; \
+git clone https://github.com/Lordputin404/android_hardware_xiaomi -b lineage-22.2 hardware/xiaomi; \
 
-git clone https://github.com/16GBRAM/android_hardware_dolby.git hardware/dolby; \
+git clone https://github.com/16GBRAM/android_hardware_dolby.git -b vic hardware/dolby; \
 
-git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera; \
+git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_miuicamera -b vic vendor/xiaomi/miuicamera; \
 
 
 . build/envsetup.sh; \
