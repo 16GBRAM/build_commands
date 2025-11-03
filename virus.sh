@@ -18,7 +18,7 @@ rm -rf vendor/xiaomi/miuicamera; \
 
 git clone https://github.com/16GBRAM/android_device_xiaomi_munch.git -b luna device/xiaomi/munch; \
 
-git clone https://github.com/16GBRAM/vendor_xiaomi_munch.git -b main vendor/xiaomi/munch; \
+git clone https://github.com/16GBRAM/android_vendor_xiaomi_munch.git -b 16 vendor/xiaomi/munch; \
 
 git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_munch-firmware -b vic vendor/xiaomi/munch-firmware; \
 
