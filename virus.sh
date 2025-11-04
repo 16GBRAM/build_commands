@@ -16,7 +16,7 @@ rm -rf hardware/dolby; \
 rm -rf vendor/xiaomi/miuicamera; \
 
 
-git clone https://github.com/16GBRAM/android_device_xiaomi_munch.git -b 16 device/xiaomi/munch; \
+git clone https://github.com/16GBRAM/android_device_xiaomi_munch.git -b lunaris device/xiaomi/munch; \
 
 git clone https://github.com/16GBRAM/android_vendor_xiaomi_munch.git -b 16 vendor/xiaomi/munch; \
 
