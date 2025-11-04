@@ -24,7 +24,8 @@ git clone https://github.com/16GBRAM/android_vendor_xiaomi_munch.git -b 16-exp v
 
 git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_munch-firmware -b 16 vendor/xiaomi/munch-firmware; \
 
-git clone https://github.com/16GBRAM/fusionX_sm8250.git -b wip-next kernel/xiaomi/munch; \
+git clone https://github.com/16GBRAM/kernel_xiaomi_munch.git -b 16-ksu kernel/xiaomi/munch; \
+cd kernel/xiaomi/munch && git submodule init && git submodule update && rm -rf KernelSU-Next/userspace/su && cd ../../..; \
 
 git clone https://github.com/16GBRAM/android_hardware_xiaomi.git hardware/xiaomi; \
 
