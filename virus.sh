@@ -28,7 +28,7 @@ git clone https://github.com/Lordputin404/android_hardware_xiaomi.git -b lineage
 
 git clone https://github.com/16GBRAM/android_hardware_dolby.git -b vic hardware/dolby; \
 
-git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_miuicamera -b vic vendor/xiaomi/miuicamera; \
+git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_miuicamera.git -b 16 vendor/xiaomi/miuicamera; \
 
 
 . build/envsetup.sh; \
