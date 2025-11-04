@@ -22,7 +22,7 @@ git clone https://github.com/16GBRAM/android_device_xiaomi_munch.git -b lunaris 
 
 git clone https://github.com/16GBRAM/android_vendor_xiaomi_munch.git -b 16-exp vendor/xiaomi/munch; \
 
-git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_munch-firmware vendor/xiaomi/munch-firmware; \
+git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_munch-firmware -b 16 vendor/xiaomi/munch-firmware; \
 
 git clone https://github.com/16GBRAM/fusionX_sm8250.git -b wip-next kernel/xiaomi/munch; \
 
